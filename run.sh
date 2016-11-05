@@ -1,6 +1,6 @@
 #!/bin/bash
 
 while true; do
-	lua bot.lua
+	cd .. && lua bot.lua
 	sleep 5s
 done
